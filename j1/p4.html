@@ -1,0 +1,24 @@
+<html>
+<head>
+    <title>JS if</title>
+    <script>
+    function checkaccess()
+        {
+            var age=parseInt(prompt("Enter Your Age : "));
+            if(age<18)
+                {
+                    alert("Not Authorised to Access Facebook");
+                }
+            else{
+               open("https://www.facebook.com/");
+            }
+        }
+    </script>
+    </head>
+    <body>
+    <form name="abc">
+        <input type="button" value="CALL CHECKACCESS FACEBOOK FUNCTION" onClick="checkaccess()" />
+        </form>    
+    
+    </body>
+</html>
